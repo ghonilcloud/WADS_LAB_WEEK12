@@ -8,9 +8,7 @@ export default defineConfig(({ mode }) => {
     server: {
       proxy: {
         "/service": {
-          target: mode === "development"
-            ? "http://localhost:3082"
-            : "https://e2425-wads-l4bcg2-server-oneal.csbihub.id",
+          target: process.env.REACT_APP_API_URL || "http://localhost:3082",
           changeOrigin: true,
           secure: mode !== "development",
           ws: true,

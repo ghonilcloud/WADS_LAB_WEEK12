@@ -19,5 +19,7 @@ services:
     restart: always
     depends_on:
       - backend
+    environment:
+      - REACT_APP_API_URL=http://backend:3082
     ports:
       - "3081:3081"
