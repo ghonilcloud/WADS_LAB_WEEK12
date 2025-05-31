@@ -1,7 +1,6 @@
 # OnealWaseem_2702342842_L4BC_WADS-LAB_Week12
 
-This document provides detailed information about the creation of the logout endpoint, integration between frontend and backend using axios and Redux Toolkit, implementation of features from the /user-info endpoint, as well as CI/CD pipeline using docker and github actions.
-The web app can be accessed through this link: https://e2425-wads-l4bcg2-viona.csbihub.id
+The web app can be accessed through this link: https://e2425-wads-l4bcg2-oneal.csbihub.id/
 
 ## Frontend Screenshots
 
